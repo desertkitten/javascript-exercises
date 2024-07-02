@@ -1,10 +1,5 @@
 const reverseString = function(string) {
-    let reversed = '';
-
-    for (let i = string.length - 1; i >= 0; i--) {
-        reversed += string[1];
-    }
-    return reversed;
+    return string.split("").reverse().join("");
 };
 
 console.log(reverseString('hello there'));
